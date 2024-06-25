@@ -39,11 +39,11 @@
 
     <EditText
         android:id="@+id/noteTitle"
-        android:background="#DF97A5EB"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:layout_marginTop="12dp"
+        android:background="#DF97A5EB"
         android:fontFamily="@font/press_start_2p"
         android:hint="@string/note_title"
         android:padding="12dp"
@@ -53,7 +53,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbar"
-        tools:background="#673AB7" />
+        tools:background="#DF97A5EB" />
 
     <EditText
         android:id="@+id/noteDescription"

@@ -24,6 +24,7 @@ class NotesAdapter(private val noteClickListener: NoteClickListener) : ListAdapt
         fun bind(note: Note) {
             noteTitle.text = note.title
 
+
             val description = if (note.description.length > 40) {
                 note.description.substring(0, 40) + "..."
             } else {

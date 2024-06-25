@@ -54,4 +54,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_add" />
 
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9FDE8561"
+
+        android:fontFamily="@font/press_start_2p"
+        android:text="Log Out"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        tools:circularflow_defaultRadius="10dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
